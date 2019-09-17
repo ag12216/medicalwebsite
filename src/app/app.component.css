@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.h12 {
+    color: blue;
+    font-family: "Times New Roman";
+}
+
+.background {
+    background-color: aqua;
+}
+
+.topnav {
+    background-color: blue;
+    overflow: hidden;
+    height: 40px;
+    padding: 6px 14px;
+    color: aqua;
+    vertical-align: top
+}
+
+.topnav a:hover {
+    color: whitesmoke;
+}
+
+.topnav a.active {
+    color: white;
+}
