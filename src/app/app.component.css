@@ -8,23 +8,52 @@
     font-family: "Times New Roman";
 }
 
+.logoSetUp {
+    height: 70px;
+    width: auto;
+    background-color: green;
+}
+
 .background {
     background-color: aqua;
 }
 
-.topnav {
-    background-color: blue;
-    overflow: hidden;
-    height: 40px;
-    padding: 6px 14px;
-    color: aqua;
-    vertical-align: top
+.margins {
+    margin-left: 10px;
 }
 
-.topnav a:hover {
-    color: whitesmoke;
+.navbar {
+    min-height: 60px;
 }
 
-.topnav a.active {
-    color: white;
+.dropdown-menu {
+    background: black;
+    opacity: .8;
+}
+
+.dropdown-menu a:hover{
+    background-color: green;
+}
+
+.imagesBg {
+    height: 350px;
+    width: auto;
+    margin: 0px auto;
+    background-image: url("images/1.jpg");
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    25% {
+        background-image: url("images/2.jpg");
+    }
+    50% {
+        background-image: url("images/3.jpg");
+    }
+    70% {
+        background-image: url("images/4.jpg");
+    }
+    100% {
+        background-image: url("images/1.jpg");
+    }
 }
