@@ -11,7 +11,7 @@
 .logoSetUp {
     height: 70px;
     width: auto;
-    background-color: green;
+    background-color: rgb(0, 132, 255);
 }
 
 .background {
@@ -39,6 +39,37 @@
     background-color: green;
 }
 
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover{
+    transform: scale(1.2);
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.item{
+height: 300px;
+}
+.live_scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .live_scroll .live_scroll--box {
+    display: inline-block;
+    float: none;
+    padding: 15px;
+   
+  }
+
+  .live_scroll .row{
+    display:block;
+  }
 
 .imagesBg {
     height: 350px;
