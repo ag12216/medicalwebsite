@@ -9,6 +9,10 @@ import { Component } from '@angular/core';
     ul li a{
       color: white;
     }
+
+    ul li a:hover{
+     
+    }
     `
   ]
 
@@ -16,4 +20,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'medicalWeb';
   menus = ["ABOUT US","PRODUCTS","R&D(DSIR)","CSR","BUSINESS & DEVELOPMENT","NEWS AND EVENTS","CAREERS","CONTACT US"];
+  companyName = 'Ashirwad shipping and logistics pvt ltd';
 }
